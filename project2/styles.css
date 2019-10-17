@@ -1,92 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: rgb(255, 208, 147);
-
-}
-
-
-.box {
-
-    height: 1000px;
-    width: 95px;
-    padding: 60px;
     background-color: rgb(255, 255, 255);
-    text-align: center;
-    float: left;
+    color: rgb(0, 0, 0);
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
 }
 
+
+li {
+    display: inline-block;
+}
+
+ul {
+    text-align: left;
+}
+
+li+li {
+    margin-left: 110px;
+}
+
+li a {
+    background-color: rgb(255, 255, 255);
+    font-family: monospace;
+    color: orange;
+    font-size: 30px;
+    padding-left: 70px;
+}
+
+
+.fa-shopping-cart:hover {
+    color: rgb(0, 134, 29);
+}
+
+.fa-utensil-spoon:hover {
+    color: rgb(0, 134, 29);
+}
+
+.fa-clock:hover {
+    color: rgb(0, 134, 29);
+}
+
+h2 {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 30px;
+
+}
+
+p {
+    text-align: left;
+    margin-top: 50px;
+    font-size: 20px;
+    padding-left: 60px;
+}
 
 
 h1 {
-    font-family: 'Open Sans', sans-serif;
-    color: rgb(255, 153, 0);
+    font-family: 'Hepta Slab', serif;
+    color: rgb(0, 141, 47);
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
+    font-style: italic;
     font-weight: bold;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    padding-top: 13px;
-    padding-bottom: 10px;
 }
 
-svg:hover path {
-    fill: rgb(233, 210, 5);
-}
-
-svg {
-    height: 50px;
-    width: auto;
-}
-
-path {
-    fill: rgb(255, 8, 0);
-}
 
 
 .fab.fa-twitter {
-    font-size: 20px;
+    font-size: 30px;
     color: rgb(55, 190, 243);
+}
 
+.fab.fa-twitter:hover {
+    color: orange;
 }
 
 .fab.fa-facebook-f {
-    font-size: 20px;
+    font-size: 30px;
     color: rgb(2, 90, 221);
 }
 
-.fab.fa-instagram {
-    font-size: 20px;
-    color: rgb(230, 0, 142);
+.fab.fa-facebook-f:hover {
+    color: orange;
+}
 
+.fab.fa-instagram {
+    font-size: 30px;
+    color: rgb(230, 0, 142);
+}
+
+.fab.fa-instagram:hover {
+    color: orange;
 }
 
 .fab.fa-pinterest-square {
-    font-size: 20px;
+    font-size: 30px;
     color: rgb(250, 34, 34);
 }
 
+.fab.fa-pinterest-square:hover {
+    color: orange;
+}
+
 .fas.fa-envelope {
-    font-size: 20px;
+    font-size: 30px;
     color: rgb(180, 34, 24);
-
 }
 
-div {
-    margin-left: 223px;
+.fas.fa-envelope:hover {
+    color: orange;
 }
 
-main {
 
 
-    width: 540px;
-    height: 1020px;
-    padding: 50px;
+.card {
+    width: 640px;
+    height: 1190px;
     background-color: rgb(255, 255, 255);
-    text-align: left;
-    margin: auto;
+    border: 10px solid rgb(255, 123, 0);
+    margin-left: 500px;
 }
 
 img {
-    width: 70%;
+    width: 100%;
     height: auto;
     max-width: 640px;
 }
