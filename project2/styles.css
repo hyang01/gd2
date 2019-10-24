@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+}
+
+
+.menu li {
+    display: inline-block;
+}
+
+ul {
+    text-align: left;
+    list-style: square;
+    padding-left: 60px;
+    padding-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.menu li+li {
+    margin-left: 110px;
+}
+
+li a {
+    background-color: rgb(255, 255, 255);
+    font-family: monospace;
+    color: orange;
+    font-size: 35px;
+    padding-left: 32px;
+
+}
+
+#fas fa-shopping-cart,
+#fas fa-utensil-spoon,
+#far fa-clock {
+    display: none;
+}
+
+#fas fa-shopping-cart:target,
+#fas fa-utensil-spoon:target,
+#far fa-clock:target {
+    display: block;
+}
+
+
+
+.fa-shopping-cart:hover {
+    color: rgb(0, 141, 47);
+}
+
+.fa-utensil-spoon:hover {
+    color: rgb(0, 141, 47);
+}
+
+.fa-clock:hover {
+    color: rgb(0, 141, 47);
+}
+
+h2 {
+    font-size: 22px;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 5px;
+}
+
+p {
+    text-align: left;
+    font-size: 20px;
+}
+
+ol {
+    padding-left: 60px;
+    padding-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-family: 'Hepta Slab', serif;
+    color: rgb(0, 141, 47);
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+
+.fab.fa-twitter {
+    font-size: 40px;
+    color: orange;
+    padding-left: 200px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.fab.fa-twitter:hover {
+    color: rgb(55, 190, 243);
+}
+
+.fab.fa-facebook-f {
+    font-size: 40px;
+    color: orange;
+}
+
+.fab.fa-facebook-f:hover {
+    color: rgb(0, 77, 221);
+}
+
+.fab.fa-instagram {
+    font-size: 40px;
+    color: orange;
+}
+
+.fab.fa-instagram:hover {
+    color: rgb(241, 0, 181);
+}
+
+.fab.fa-pinterest-square {
+    font-size: 40px;
+    color: orange;
+}
+
+.fab.fa-pinterest-square:hover {
+    color: rgb(255, 0, 0);
+}
+
+.fas.fa-envelope {
+    font-size: 40px;
+    color: orange;
+}
+
+.fas.fa-envelope:hover {
+    color: rgb(153, 0, 255);
+}
+
+.fas.fa-clock {
+    padding-top: 10px;
+    padding-bottom: none;
+}
+
+
+.card {
+    width: 640px;
+    height: 2230px;
+    background-color: rgb(255, 255, 255);
+    border: 25px solid rgb(255, 123, 0);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 640px;
+}
+
+
+section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+section:target {
+    background-color: rgb(255, 237, 211);
+}
