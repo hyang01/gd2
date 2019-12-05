@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    background-color: rgb(255, 252, 208);
+}
+
+h1 {
+    margin: 0;
+    padding-top: 80px;
+    color: rgb(0, 60, 255);
+    font-size: 60px;
+    text-align: center;
+
+}
+
+h2 {
+    color: rgb(0, 60, 255);
+    text-align: center;
+}
+
+header {
+    background-image: url("slide-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px;
+    opacity: 0.6;
+}
+
+section {
+    padding: 100px 30px;
+}
+
+.box-2 {
+    background-color: #525252;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    /* position: absolute; */
+
+}
+
+li a {
+    border: 7px solid transparent;
+    color: #525252;
+    padding: 13px;
+    text-decoration: none;
+}
+
+li a:hover,
+li a:focus {
+    border-color: rgb(0, 60, 255);
+    color: rgb(0, 60, 255);
+}
+
+li a:active {
+
+    color: white;
+}
+
+nav {
+    background-color: rgb(255, 252, 208);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+footer {
+    background: rgb(234, 255, 178);
+    color: rgb(185, 132, 132);
+    font-size: 10px;
+    margin-top: 100px;
+    padding: 16px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+footer a {
+    color: rgb(194, 38, 38);
+    letter-spacing: 1px;
+}
+
+footer a:hover {
+    border-bottom-style: solid;
+    color: rgb(255, 47, 127);
+}
+
+
+.fab.fa-twitter {
+    font-size: 40px;
+    color: orange;
+    padding-left: 200px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.fab.fa-twitter:hover {
+    color: rgb(55, 190, 243);
+}
+
+.fab.fa-facebook-f {
+    font-size: 40px;
+    color: orange;
+}
+
+.fab.fa-facebook-f:hover {
+    color: rgb(0, 77, 221);
+}
+
+.fab.fa-instagram {
+    font-size: 40px;
+    color: orange;
+}
+
+.fab.fa-instagram:hover {
+    color: rgb(241, 0, 181);
+}
+
+.fab.fa-pinterest-square {
+    font-size: 40px;
+    color: orange;
+}
+
+.fab.fa-pinterest-square:hover {
+    color: rgb(255, 0, 0);
+}
+
+.fas.fa-envelope {
+    font-size: 40px;
+    color: orange;
+}
+
+.fas.fa-envelope:hover {
+    color: rgb(153, 0, 255);
+}
