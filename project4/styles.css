@@ -1,59 +1,123 @@
 body {
     margin: 0;
     background-color: rgb(255, 252, 208);
+
 }
 
 h1 {
     margin: 0;
     padding-top: 80px;
-    color: rgb(0, 60, 255);
+    color: rgb(0, 29, 124);
     font-size: 60px;
     text-align: center;
-
 }
 
 h2 {
-    color: rgb(0, 60, 255);
+    color: rgb(0, 29, 124);
     text-align: center;
 }
 
+h3 {
+    text-align: left;
+    font-size: 30px;
+    margin-top: auto;
+}
+
 header {
-    background-image: url("slide-1.jpg");
+    background-image: url("images/slide-1 copy.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 90px;
-    opacity: 0.6;
+
+    font-family: 'Exo', sans-serif;
 }
+
+
+
+
 
 section {
     padding: 100px 30px;
 }
 
 .box-2 {
-    background-color: #525252;
-    margin-top: 0px;
+    background-color: #4d4d4d;
+    margin-top: 90px;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
+    color: black;
     /* position: absolute; */
 
 }
 
+.signin {
+    background-color: rgb(0, 146, 134);
+    background-size: 10px;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.viewmore {
+    background-color: rgb(0, 146, 134);
+    background-size: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.Ticketpurchase {
+    background-color: rgb(100, 0, 146);
+    background-size: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.input-box {
+    height: 30px;
+    width: 350px;
+}
+
+.email {
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 0px;
+
+}
+
+#schedule ul {
+    list-style: round;
+    text-align: left;
+}
+
+p {
+    font-size: 20px;
+}
+
+.speakers {
+    width: 30%;
+    border: 10px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
 li a {
     border: 7px solid transparent;
-    color: #525252;
+    color: #202020;
     padding: 13px;
     text-decoration: none;
+
 }
 
 li a:hover,
 li a:focus {
-    border-color: rgb(0, 60, 255);
-    color: rgb(0, 60, 255);
+    border-color: rgb(0, 29, 124);
+    color: rgb(0, 29, 124);
 }
 
 li a:active {
-
     color: white;
 }
 
@@ -65,22 +129,25 @@ nav {
     left: 0;
 }
 
-ul {
+nav ul {
     text-align: center;
+
 }
 
-li {
+nav li {
     display: inline-block;
+
 }
 
 footer {
-    background: rgb(234, 255, 178);
-    color: rgb(185, 132, 132);
+    background: rgb(0, 0, 0);
+    color: rgb(0, 146, 134);
     font-size: 10px;
     margin-top: 100px;
     padding: 16px;
-    text-align: right;
+    text-align: center;
     text-transform: uppercase;
+
 }
 
 footer a {
@@ -96,10 +163,11 @@ footer a:hover {
 
 .fab.fa-twitter {
     font-size: 40px;
-    color: orange;
-    padding-left: 200px;
+    color: black;
+    padding-left: 350px;
     padding-top: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
+
 }
 
 .fab.fa-twitter:hover {
@@ -108,7 +176,8 @@ footer a:hover {
 
 .fab.fa-facebook-f {
     font-size: 40px;
-    color: orange;
+    color: black;
+
 }
 
 .fab.fa-facebook-f:hover {
@@ -117,7 +186,8 @@ footer a:hover {
 
 .fab.fa-instagram {
     font-size: 40px;
-    color: orange;
+    color: black;
+
 }
 
 .fab.fa-instagram:hover {
@@ -126,7 +196,8 @@ footer a:hover {
 
 .fab.fa-pinterest-square {
     font-size: 40px;
-    color: orange;
+    color: black;
+
 }
 
 .fab.fa-pinterest-square:hover {
@@ -135,9 +206,25 @@ footer a:hover {
 
 .fas.fa-envelope {
     font-size: 40px;
-    color: orange;
+    color: black;
+
 }
 
 .fas.fa-envelope:hover {
     color: rgb(153, 0, 255);
+}
+
+
+@media (min-width:375px) {
+    body {
+        background-color: rgb(255, 252, 208);
+    }
+}
+
+
+
+@media (min-width:1280px) {
+    body {
+        background-color: rgb(255, 252, 208);
+    }
 }
