@@ -1,248 +1,248 @@
 html,
 body {
-  max-width: 100%;
-  overflow-x: hidden;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 body {
-  margin: 0;
-  background-color: rgb(255, 252, 208);
+    margin: 0;
+    background-color: rgb(255, 252, 208);
 }
 
 h1 {
-  margin: 0;
-  padding-top: 80px;
-  color: rgb(0, 29, 124);
-  text-align: center;
+    margin: 0;
+    padding-top: 80px;
+    color: rgb(0, 29, 124);
+    text-align: center;
 }
 
 h2 {
-  color: rgb(0, 29, 124);
-  text-align: center;
+    color: rgb(0, 29, 124);
+    text-align: center;
 }
 
 h3 {
-  text-align: left;
-  font-size: 30px;
-  margin-top: auto;
+    text-align: left;
+    font-size: 30px;
+    margin-top: auto;
 }
 
 header {
-  background-image: url("images/slide-1 copy.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  padding: 90px;
+    background-image: url("images/slide-1 copy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 90px;
 
-  font-family: "Exo", sans-serif;
+    font-family: "Exo", sans-serif;
 }
 
 section {
-  padding: 100px 30px;
+    padding: 100px 30px;
 }
 
 .box-2 {
-  background-color: #4d4d4d;
-  margin-top: 90px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-  color: black;
-  /* position: absolute; */
+    background-color: #4d4d4d;
+    margin-top: 90px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: black;
+    /* position: absolute; */
 }
 
 .signin {
-  background-color: rgb(0, 146, 134);
-  background-size: 10px;
-  display: inline-block;
-  font-size: 17px;
-  font-weight: bold;
-  border-radius: 10px;
+    background-color: rgb(135, 0, 197);
+    background-size: 10px;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 10px;
 }
 
 .viewmore {
-  background-color: rgb(0, 146, 134);
-  background-size: 10px;
-  font-size: 20px;
-  font-weight: bold;
-  border-radius: 10px;
+    background-color: rgb(0, 146, 134);
+    background-size: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
 }
 
 .Ticketpurchase {
-  background-color: rgb(100, 0, 146);
-  background-size: 30px;
-  font-size: 20px;
-  font-weight: bold;
-  border-radius: 10px;
+    background-color: rgb(135, 0, 197);
+    background-size: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
 }
 
 .input-box {
-  height: 30px;
-  width: 350px;
+    height: 30px;
+    width: 350px;
 }
 
 .email {
-  text-align: center;
-  margin-top: 90px;
-  margin-bottom: 0px;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 0px;
 }
 
 #schedule ul {
-  list-style: round;
-  text-align: left;
+    list-style: round;
+    text-align: left;
 }
 
 p {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 .speakers {
-  width: 30%;
-  border: 10px solid rgb(0, 0, 0);
-  border-radius: 20px;
+    width: 30%;
+    border: 10px solid rgb(0, 0, 0);
+    border-radius: 20px;
 }
 
 li a {
-  border: 7px solid transparent;
-  color: #202020;
-  padding: 13px;
-  text-decoration: none;
+    border: 7px solid transparent;
+    color: #202020;
+    padding: 13px;
+    text-decoration: none;
 }
 
 li a:hover,
 li a:focus {
-  border-color: rgb(0, 29, 124);
-  color: rgb(0, 29, 124);
+    border-color: rgb(0, 29, 124);
+    color: rgb(0, 29, 124);
 }
 
 li a:active {
-  color: white;
+    color: white;
 }
 
 nav {
-  background-color: rgb(255, 252, 208);
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
+    background-color: rgb(255, 252, 208);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 nav ul {
-  text-align: center;
+    text-align: center;
 }
 
 nav li {
-  display: inline-block;
+    display: inline-block;
 }
 
 footer {
-  background: rgb(0, 0, 0);
-  color: rgb(0, 146, 134);
-  font-size: 10px;
-  margin-top: 100px;
-  padding: 16px;
-  text-align: center;
-  text-transform: uppercase;
+    background: rgb(0, 0, 0);
+    color: rgb(0, 146, 134);
+    font-size: 10px;
+    margin-top: 100px;
+    padding: 16px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 footer a {
-  color: rgb(194, 38, 38);
-  letter-spacing: 1px;
+    color: rgb(30, 233, 216);
+    letter-spacing: 1px;
 }
 
 footer a:hover {
-  border-bottom-style: solid;
-  color: rgb(255, 47, 127);
+    border-bottom-style: solid;
+    color: rgb(255, 252, 208);
 }
 
 .fab.fa-twitter {
-  font-size: 40px;
-  color: black;
+    font-size: 40px;
+    color: black;
 }
 
 .fab.fa-twitter:hover {
-  color: rgb(55, 190, 243);
+    color: rgb(55, 190, 243);
 }
 
 .fab.fa-facebook-f {
-  font-size: 40px;
-  color: black;
+    font-size: 40px;
+    color: black;
 }
 
 .fab.fa-facebook-f:hover {
-  color: rgb(0, 77, 221);
+    color: rgb(0, 77, 221);
 }
 
 .fab.fa-instagram {
-  font-size: 40px;
-  color: black;
+    font-size: 40px;
+    color: black;
 }
 
 .fab.fa-instagram:hover {
-  color: rgb(241, 0, 181);
+    color: rgb(241, 0, 181);
 }
 
 .fab.fa-pinterest-square {
-  font-size: 40px;
-  color: black;
+    font-size: 40px;
+    color: black;
 }
 
 .fab.fa-pinterest-square:hover {
-  color: rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
 }
 
 .fas.fa-envelope {
-  font-size: 40px;
-  color: black;
+    font-size: 40px;
+    color: black;
 }
 
 .fas.fa-envelope:hover {
-  color: rgb(153, 0, 255);
+    color: rgb(153, 0, 255);
 }
 
 .social {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
-.social > * {
-  margin: 0.15em;
+.social>* {
+    margin: 0.15em;
 }
 
 .header-links {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 ul {
-  padding-inline-start: 0px;
+    padding-inline-start: 0px;
 }
 
 @media (max-width: 375px) {
-  ul.header-links > li {
-    font-size: 12px;
-    font-weight: bold;
-  }
+    ul.header-links>li {
+        font-size: 12px;
+        font-weight: bold;
+    }
 }
 
 @media (min-width: 375px) {
-  body {
-    background-color: rgb(255, 252, 208);
-  }
+    body {
+        background-color: rgb(255, 252, 208);
+    }
 
-  h1 {
-    font-size: 25px;
-  }
+    h1 {
+        font-size: 25px;
+    }
 }
 
 @media (min-width: 850px) {
-  h1 {
-    font-size: 60px;
-  }
+    h1 {
+        font-size: 60px;
+    }
 }
 
 @media (min-width: 1280px) {
-  body {
-    background-color: rgb(255, 252, 208);
-  }
+    body {
+        background-color: rgb(255, 252, 208);
+    }
 }
